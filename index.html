@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breeds</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/main.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Dog Breeds</h1>
+</header>
+<main>
+    <section id="breed-list">
+        <h2>Breeds</h2>
+        <ul id="breeds"></ul>
+    </section>
+    <section id="breed-details" class="hidden" data-breed-id="">
+        <h2>Breed Details</h2>
+        <div id="details" class="breed-details-container">
+            <div class="breed-info">
+                <h3 id="breed-name"></h3>
+                <p id="breed-temperament"></p>
+            </div>
+            <div class="carousel">
+                <button class="prev-button">❮</button>
+                <div class="carousel-image-container">
+                    <img src="" alt="Dog" class="carousel-image">
+                </div>
+                <button class="next-button">❯</button>
+            </div>
+        </div>
+        <button id="back-button">Back to list</button>
+    </section>
+</main>
+</body>
+</html>
